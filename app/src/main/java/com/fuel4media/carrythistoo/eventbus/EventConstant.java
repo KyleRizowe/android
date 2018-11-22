@@ -1,0 +1,109 @@
+package com.fuel4media.carrythistoo.eventbus;
+
+/**
+ * Created by Admin on 6/26/2017.
+ */
+
+public interface EventConstant {
+
+    int NETWORK_ERROR = -1;
+    int TOKEN_EXPIRE = 0;
+
+
+    int SERVER_ERROR = 500;
+
+    int IDLE_TIMEOUT = 1000;
+
+    int LOGIN_SUCCESS = 1;
+    int LOGIN_ERROR = 2;
+
+    int REGISTER_SUCCESS = 3;
+    int REGISTER_ERROR = 4;
+
+    int VERIFY_OTP_SUCCESS = 5;
+    int VERIFY_OTP_ERROR = 6;
+
+    int UPDATE_SETTINGS_SUCCESS = 7;
+    int UPDATE_SETTINGS_ERROR = 8;
+
+    int RESEND_OTP_SUCCESS = 9;
+    int RESEND_OTP_ERROR = 10;
+
+    int LOGOUT_SUCCESS = 11;
+    int LOGOUT_ERROR = 12;
+
+    int ADD_EVENT_SUCCESS = 13;
+    int ADD_EVENT_ERROR = 14;
+
+    int EDIT_EVENT_SUCCESS = 15;
+    int EDIT_EVENT_ERROR = 16;
+
+    int DELETE_EVENT_SUCCESS = 17;
+    int DELETE_EVENT_ERROR = 18;
+
+    int EVENT_LIST_SUCCESS = 19;
+    int EVENT_LIST_ERROR = 20;
+
+    int CALENDAR_LIST_SUCCESS = 21;
+    int CALENDAR_LIST_ERROR = 22;
+
+    int ADD_ESTABLISMENT_SUCCESS = 23;
+    int ADD_ESTABLISMENT_ERROR = 24;
+
+    int INVITE_OWNERS_SUCCESS = 25;
+    int INVITE_OWNERS_ERROR = 26;
+
+    int PERMIT_LIST_SUCCESS = 27;
+    int PERMIT_LIST_ERROR = 28;
+
+    int ADD_PERMIT_SUCCESS = 29;
+    int ADD_PERMIT_ERROR = 30;
+
+    int EDIT_PERMIT_SUCCESS = 31;
+    int EDIT_PERMIT_ERROR = 32;
+
+    int DELETE_PERMIT_SUCCESS = 33;
+    int DELETE_PERMIT_ERROR = 34;
+
+    int STATE_LAWS_LIST_SUCCESS = 35;
+    int STATE_LAWS_LIST_ERROR = 36;
+
+    int COMAPRE_STATE_LAWS_LIST_SUCCESS = 37;
+    int COMPARE_STATE_LAWS_LIST_ERROR = 38;
+
+    int UPDATE_FIREBASE_TOKEN_SUCCESS = 39;
+    int UPDATE_FIREBASE_TOKEN_ERROR = 40;
+
+    int FILTER_GUN_ZONE_SUCCESS = 41;
+    int FILTER_GUN_ZONE_ERROR = 42;
+
+    int SEND_MESSAGE_SUCCESS = 43;
+    int SEND_MESSAGE_ERROR = 44;
+
+    int MESSAGE_LIST_SUCCESS = 45;
+    int MESSAGE_LIST_ERROR = 46;
+
+    int GET_REPO_MAP_SUCCESS = 47;
+    int GET_REPO_MAP_ERROR = 48;
+
+    int ADD_SUGGESTION_SUCCESS = 49;
+    int ADD_SUGGESTION_ERROR = 50;
+
+    int UPDATE_LOCATION_SUCCESS = 51;
+    int UPDATE_LOCATION_ERROR = 52;
+
+    int PAYMENT_TOKEN_SUCCESS = 53;
+    int PAYMENT_TOKEN_ERROR = 54;
+
+    int PAYMENT_NONCE_SUCCESS = 55;
+    int PAYMENT_NONCE_ERROR = 56;
+
+    int GUN_FREE_ZONE_SUCCESS = 57;
+    int GUN_FREE_ZONE_ERROR = 58;
+
+    int CANCEL_PAYMENT_SUCCESS = 59;
+    int CANCEL_PAYMENT_ERROR = 60;
+
+    int START_PREMIUM_SUCCESS = 61;
+    int START_PREMIUM_ERROR = 62;
+}

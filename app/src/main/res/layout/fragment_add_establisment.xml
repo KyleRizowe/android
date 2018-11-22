@@ -1,0 +1,164 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fuel4media.carrythistoo.fragments.AddEstablismentFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/houschk_pro_medium"
+            android:padding="10dp"
+            android:text="@string/add_gun_free_zone"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+
+        <EditText
+            android:id="@+id/edt_establisment_name"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/name_of_establishment"
+            android:drawablePadding="5dp"
+            android:gravity="start"
+            android:hint="@string/hint_name_of_establisment"
+            android:inputType="textCapSentences" />
+
+        <EditText
+            android:id="@+id/tv_address"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/address"
+            android:drawablePadding="5dp"
+            android:gravity="start"
+            android:hint="ADDRESS"
+            android:inputType="textCapSentences" />
+
+        <EditText
+            android:id="@+id/tv_address2"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/address"
+            android:drawablePadding="5dp"
+            android:gravity="start"
+            android:hint="@string/hint_address_line_2"
+            android:inputType="textCapSentences"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/tv_establishment_type"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/city"
+            android:drawablePadding="5dp"
+            android:gravity="start"
+            android:hint="ESTABLISHMENT TYPE"
+            android:inputType="textCapSentences" />
+
+        <EditText
+            android:id="@+id/edt_city"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/city"
+            android:drawablePadding="5dp"
+            android:gravity="start"
+            android:hint="@string/hint_city"
+            android:inputType="number"
+            android:visibility="gone" />
+
+
+        <EditText
+            android:id="@+id/edt_zip_code"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/city"
+            android:drawablePadding="5dp"
+            android:gravity="start"
+            android:hint="ZIP CODE"
+            android:inputType="number"
+            android:visibility="gone" />
+
+
+        <EditText
+            android:id="@+id/edt_phone"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@drawable/phone"
+            android:drawablePadding="5dp"
+            android:gravity="start"
+            android:hint="@string/hint_phone"
+            android:inputType="number"
+            android:maxLength="10" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cb_firearm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/houschk_pro_medium"
+            android:text="No Firearms Allowed"
+            android:textSize="13sp" />
+
+
+        <Button
+            android:id="@+id/btn_add_establisment"
+            style="@style/ButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/add" />
+
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+    <include layout="@layout/progress_bar_small" />
+
+
+</RelativeLayout>

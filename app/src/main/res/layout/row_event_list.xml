@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:background="@drawable/bg_white_with_border"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/iv_loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/red_with_corner"
+        android:padding="10dp"
+        android:src="@drawable/placeholder" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@+id/iv_bell"
+        android:layout_toRightOf="@+id/iv_loc"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_event_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/houschka_pro_demibold"
+            android:text="To New York"
+            android:textColor="@color/colorRed"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/houschka_pro_demibold"
+            android:singleLine="true"
+            android:text="Lorem Ipsum is placeholder text commonly used in the graphic. "
+            android:textColor="@color/colorTextBlack"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/houschka_pro_demibold"
+            android:text="Monday, March 14, 2018"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/houschka_pro_demibold"
+            android:text="9:00AM - 11:00AM PST"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="8sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/houschka_pro_demibold"
+            android:text="124 Shawnee Loop N, Pataskala, OH, 43062"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="8sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_bell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/blue_bell_alert_icon" />
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+
+        <item name="listPreferredItemHeightSmall">38dp</item>
+        <item name="android:textColorPrimaryInverse">@color/colorTextBlack</item>
+
+        <item name="textColorAlertDialogListItem">@color/colorPrimary</item>
+    </style>
+
+    <style name="Theme.SwitchDateTime" parent="AppTheme">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="dialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/houschk_pro_medium</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:background">@drawable/blue_with_corner</item>
+        <item name="android:fontFamily">@font/houschka_pro_demibold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:minHeight">35dp</item>
+        <item name="android:paddingLeft">25dp</item>
+        <item name="android:paddingRight">25dp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:minWidth">70dp</item>
+    </style>
+
+
+    <style name="EditTextStyle">
+        <item name="android:background">@drawable/black_border</item>
+        <item name="android:fontFamily">@font/houschk_pro_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/colorTextBlack</item>
+        <item name="android:textColorHint">@color/colorTextBlack</item>
+    </style>
+</resources>

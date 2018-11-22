@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_with_border">
+
+    <ImageView
+        android:id="@+id/iv_close_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="10dp"
+        android:src="@drawable/close_button"
+        android:tint="@color/colorTextBlack" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_close"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/houschka_pro_demibold"
+            android:text="@string/add_new_event"
+            android:textColor="@color/colorRed"
+            android:textSize="19sp" />
+
+        <EditText
+            android:id="@+id/edt_event_name"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/hint_event_name"
+            android:inputType="textCapSentences" />
+
+        <EditText
+            android:id="@+id/edt_event_description"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="start"
+            android:hint="@string/hint_description"
+            android:inputType="textCapSentences"
+            android:lines="3" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/edt_event_date"
+                style="@style/EditTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/calendar"
+                android:drawablePadding="5dp"
+                android:gravity="start"
+                android:hint="@string/hint_date" />
+
+
+            <!-- <TextView
+                 android:id="@+id/edt_event_time"
+                 style="@style/EditTextStyle"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginRight="10dp"
+                 android:layout_marginTop="10dp"
+                 android:layout_weight="1"
+                 android:drawableLeft="@drawable/time_icon"
+                 android:drawablePadding="5dp"
+                 android:gravity="start"
+                 android:hint="@string/hint_time" />-->
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/edt_event_location"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:drawableLeft="@drawable/add_location"
+            android:drawablePadding="5dp"
+            android:gravity="start"
+            android:hint="@string/hint_add_location" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cb_notify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/houschk_pro_medium"
+            android:text="@string/notify_me"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_add_event"
+            style="@style/ButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/add" />
+
+
+    </LinearLayout>
+
+    <include layout="@layout/progress_bar_small" />
+
+</RelativeLayout>

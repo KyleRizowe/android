@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="70dp"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tv_incoming_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/houschka_pro_extra_bold"
+        android:gravity="start|center_vertical"
+        android:padding="5dp"
+        android:text="h"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp" />
+
+</RelativeLayout>

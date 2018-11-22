@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/bg_white_with_border"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/iv_gun_zone"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/cirlce_black"
+        android:padding="10dp"
+        android:src="@drawable/gun_shop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/iv_gun_zone"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_gun_zone_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/houschka_pro_demibold"
+            android:text="Gun Shop Name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_zone_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTextBlack"
+                android:padding="2dp"
+                android:text="Gun Shop"
+                android:textColor="@color/colorTextBlack"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/tv_zone_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:padding="2dp"
+                android:text="1.7 km away"
+                android:textColor="@color/colorTextBlack"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/add_location"
+            android:drawablePadding="4dp"
+            android:text="address will be addes "
+            android:textColor="@color/colorTextBlack"
+            android:textSize="8sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

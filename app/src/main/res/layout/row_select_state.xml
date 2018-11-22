@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/border_black_square"
+    android:paddingBottom="3dp"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp"
+    android:paddingTop="3dp">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/cb_contact"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/cross"
+        android:drawableTint="@color/colorTextBlack"
+        android:fontFamily="@font/houschk_pro_medium"
+        android:singleLine="true"
+        android:text="dldhalhahfhal"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="12sp" />
+
+</RelativeLayout>

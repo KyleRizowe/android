@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/calender_icon"
+            android:title="@string/nav_calendar" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/message_icon"
+            android:title="@string/nav_message" />
+        <item
+            android:id="@+id/nav_repo_map"
+            android:icon="@drawable/reciprocity_map"
+            android:title="@string/nav_repo_map" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/search_icon"
+            android:title="@string/search_gun_zones" />
+        <item
+            android:id="@+id/nav_state_listing"
+            android:icon="@drawable/ccw_laws_icon"
+            android:title="@string/nav_ccw_laws" />
+
+        <item
+            android:id="@+id/nav_comapre_state"
+            android:icon="@drawable/compare_state_icon"
+            android:title="@string/nav_compare_laws" />
+
+        <item
+            android:id="@+id/nav_permit_info"
+            android:icon="@drawable/permit_icon"
+            android:title="@string/nav_permit_information" />
+
+        <item
+            android:id="@+id/nav_add_establisment"
+            android:icon="@drawable/add_establishment_icon"
+            android:title="@string/nav_add_establisment" />
+
+        <item
+            android:id="@+id/nav_invite_owner"
+            android:icon="@drawable/inviite_gun_owner_icon"
+            android:title="@string/nav_invite_gun_owner" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/setting_icon"
+            android:title="@string/nav_settings" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout_icon"
+            android:title="@string/nav_logout" />
+
+    </group>
+</menu>
+

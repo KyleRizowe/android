@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:orientation="horizontal"
+    android:divider="@drawable/crop__divider"
+    android:showDividers="middle"
+    android:background="@color/crop__button_bar"
+    >
+    <FrameLayout
+        android:id="@+id/btn_cancel"
+        style="@style/Crop.ActionButton">
+        <TextView style="@style/Crop.ActionButtonText.Cancel"
+            android:clickable="false"
+            android:enabled="false"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/btn_done"
+        style="@style/Crop.ActionButton">
+        <TextView style="@style/Crop.ActionButtonText.Done"
+            android:clickable="false"
+            android:enabled="false"
+            />
+    </FrameLayout>
+
+</LinearLayout>

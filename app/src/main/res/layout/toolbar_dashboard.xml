@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar_dashboard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorAccent"
+    android:contentInsetEnd="0dp"
+    android:contentInsetLeft="0dp"
+    android:contentInsetRight="0dp"
+    android:contentInsetStart="0dp"
+    android:theme="@style/ToolbarTheme"
+    app:contentInsetEnd="0dp"
+    app:contentInsetLeft="0dp"
+    app:contentInsetRight="0dp"
+    app:contentInsetStart="0dp"
+    app:popupTheme="@style/AppTheme">
+
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorLightRed"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <EditText
+            android:id="@+id/edt_source_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorRed"
+            android:drawableLeft="@drawable/your_location"
+            android:drawablePadding="5dp"
+            android:padding="5dp"
+            android:text="Your Location"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="7sp" />
+
+        <EditText
+            android:id="@+id/edt_destination_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorRed"
+            android:drawableLeft="@drawable/south_windsor_icon"
+            android:drawablePadding="5dp"
+            android:padding="5dp"
+            android:text="Destination Location"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="7sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/border_white_square"
+        android:padding="5dp"
+        android:text="GO"
+        android:textColor="@color/colorWhite" />
+
+</android.support.v7.widget.Toolbar>

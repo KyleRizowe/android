@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+
+
+        <item name="listPreferredItemHeightSmall">38dp</item>
+    </style>
+
+    <style name="MonthPickerDialogStyle">
+
+        <item name="headerBgColor">@color/colorGray</item>
+        <item name="headerFontColorSelected">@color/colorTextBlack</item>
+        <item name="headerFontColorNormal">@color/color_transparent_black</item>
+        <item name="headerTitleColor">@color/colorTextBlack</item>
+
+        <item name="dialogActionButtonColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="Theme.SwitchDateTime" parent="AppTheme">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/houschk_pro_medium</item>
+    </style>
+
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ButtonStyle">
+        <item name="android:background">@drawable/blue_with_corner</item>
+        <item name="android:fontFamily">@font/houschka_pro_demibold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:minHeight">35dp</item>
+        <item name="android:paddingLeft">25dp</item>
+        <item name="android:paddingRight">25dp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:minWidth">90dp</item>
+
+    </style>
+
+    <style name="calendar_header_style">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:background">@drawable/black_border</item>
+        <item name="android:fontFamily">@font/houschk_pro_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/colorTextBlack</item>
+        <item name="android:textColorHint">@color/colorTextBlack</item>
+    </style>
+
+</resources>

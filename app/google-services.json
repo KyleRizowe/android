@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1085917229385",
+    "firebase_url": "https://carrythistoo.firebaseio.com",
+    "project_id": "carrythistoo",
+    "storage_bucket": "carrythistoo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085917229385:android:51cb31ae3bf6c738",
+        "android_client_info": {
+          "package_name": "com.fuel4media.carrythistoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085917229385-a8n740kegpkhvosq6lsbh013grn8h63s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBN7NlN_KU7DKs--eGWmn9lJdKx0m96cs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

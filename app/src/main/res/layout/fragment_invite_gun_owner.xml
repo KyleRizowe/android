@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fuel4media.carrythistoo.fragments.InviteGunOwnerFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/circle_grey">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/message" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/houschka_pro_demibold"
+            android:text="@string/invite_gun_owner"
+            android:textAllCaps="true"
+            android:textColor="@color/colorRed"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/houschk_pro_medium"
+            android:gravity="center"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_mobile_no"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/mobile_phone_icon"
+            android:drawablePadding="5dp"
+            android:gravity="start"
+            android:hint="@string/hint_mobile_number" />
+
+        <Button
+            android:id="@+id/btn_invite"
+            style="@style/ButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="@string/invite" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/houschka_pro_demibold"
+            android:text="@string/your_referral_code_is"
+            android:textAllCaps="true"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_gray"
+            android:fontFamily="@font/houschka_pro_demibold"
+            android:padding="10dp"
+            android:text="CTT0152"
+            android:textAllCaps="true"
+            android:textColor="@color/colorRed"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/houschk_pro_medium"
+            android:padding="10dp"
+            android:text="Share this special code with friends"
+            android:textColor="#a3a3a3"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <include layout="@layout/progress_bar_small" />
+
+</RelativeLayout>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".activity.PaymentActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/tv_go_premium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/blue_with_corner"
+            android:fontFamily="@font/houschka_pro_demibold"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:text="GO PREMIUM"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp" />
+
+
+        <RelativeLayout
+            android:id="@+id/rl_plan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_go_premium"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_blue_square"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/houschka_pro_demibold"
+                    android:text="30"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="50sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/houschka_pro_demibold"
+                    android:letterSpacing="0.40"
+                    android:lineSpacingExtra="6sp"
+                    android:text="DAYS"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:fontFamily="@font/houschka_pro_demibold"
+                    android:text="Only $2.99/month \n (Tax excluded where applicable)"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/blue_with_corner"
+                android:fontFamily="@font/houschka_pro_demibold"
+                android:paddingBottom="2dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="2dp"
+                android:text="Try Premium free"
+                android:textColor="@color/colorWhite"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_plan"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_why_premium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blue_with_corner"
+                android:padding="5dp"
+                android:text="Why go Premium?"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/check_icon"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/colorPrimary"
+                android:text="Concealed Carry Laws (State + Multi-State Listings)"
+                android:textColor="@color/colorPrimary"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/check_icon"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/colorPrimary"
+                android:text="All Reciprocity Maps"
+                android:textColor="@color/colorPrimary"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/check_icon"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/colorPrimary"
+                android:text="Search All Gun-Zones"
+                android:textColor="@color/colorPrimary"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/check_icon"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/colorPrimary"
+                android:text="In-App Navigation"
+                android:textColor="@color/colorPrimary"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/check_icon"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/colorPrimary"
+                android:text="Proximity Gun-Free Zone Notifications"
+                android:textColor="@color/colorPrimary"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/check_icon"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/colorPrimary"
+                android:text="Calendar Sync - Destination CCW Laws Notifications"
+                android:textColor="@color/colorPrimary"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/check_icon"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/colorPrimary"
+                android:text="Compare Concealed Carry Laws"
+                android:textColor="@color/colorPrimary"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/check_icon"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/colorPrimary"
+                android:text="Cross-Border CCW Law Notifications"
+                android:textColor="@color/colorPrimary"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:drawableTint="@color/colorPrimary"
+                android:text="* Carry This Too may make a temporary authorization on your card to
+verify it. This is an authorization only and NOT a charge. Your bank may
+inform you of the authorization."
+                android:textColor="@color/colorPrimary"
+                android:textSize="8sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:drawableTint="@color/colorPrimary"
+                android:text="* By purchasing, you authorize Carry This Too to charge you $2.99 +
+applicable tax each month until you cancel. If the price changes, we'll
+notify you beforehand. You can cancel anytime via your SETTINGS PAGE.
+NO partial refunds."
+                android:textColor="@color/colorPrimary"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/tv_start_trial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/blue_with_corner"
+                android:fontFamily="@font/houschka_pro_demibold"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:text="START FREE TRIAL"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <include layout="@layout/progress_bar_small" />
+
+
+</RelativeLayout>
